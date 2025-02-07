@@ -1,9 +1,9 @@
 # RESUME-SHORTLISTER
-It ranks the resumes of the applicants based on the match of job description and their resume.
-INPUTS: 
+It ranks the resumes of the applicants based on the match of job description and their resume. Used by recruiters.
 
-# job_description = """
-    Job Description: We are seeking a motivated and tech-savvy intern to join our team as an Artificial Intelligence (AI) Agent Solutions Developer. This role will provide hands-on experience in developing AI-based solutions, contributing to real-world projects, and collaborating with a team of experienced professionals. The ideal candidate is passionate about AI, eager to learn, and excited to apply their skills in a practical setting.
+# INPUTS: 
+JOB DESCRIPTION
+    """Job Description: We are seeking a motivated and tech-savvy intern to join our team as an Artificial Intelligence (AI) Agent Solutions Developer. This role will provide hands-on experience in developing AI-        based solutions, contributing to real-world projects, and collaborating with a team of experienced professionals. The ideal candidate is passionate about AI, eager to learn, and excited to apply their skills        in a practical setting.
 
     Preferred candidate profile:
     - Education: Currently pursuing a masters degree in Computer Science, Data Science, AI, Machine Learning, or a related field.
@@ -18,6 +18,7 @@ INPUTS:
     - Knowledge of RAG and agentic frameworks like LangChain, AutoGen, etc.
     - Previous internship or project experience in AI/ML.
     """
-# match threshold = 75
-# required resumes = 5
+match threshold = 75
+required resumes = 5
+# RESULT
 ![image](https://github.com/user-attachments/assets/ed4dac89-ea42-4d2f-aeb5-d6269b2ff583)
